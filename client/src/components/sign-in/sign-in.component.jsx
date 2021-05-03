@@ -24,7 +24,7 @@ const SignIn = ({ emailSignInStart, googleSignInStart }) => {
     };
 
     const handleChange = event => {
-        const { value, name} = event.target;
+        const { value, name } = event.target;
 
         setCredentials({...userCredentials, [name]: value })
     };
